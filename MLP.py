@@ -5,7 +5,7 @@ import pandas
 import math
 from keras.models import Sequential
 from keras.layers import Dense
-# fix random seed for reproducibility
+# fix a random seed for reproducibility
 numpy.random.seed(7)
 # load the dataset
 
