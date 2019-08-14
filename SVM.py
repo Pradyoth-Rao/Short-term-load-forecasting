@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 from matplotlib import style
 #style.use('ggplot')
 
-#All the libraries required
+# All the libraries required
 
 
 df = pd.read_csv("loaddata.txt")
