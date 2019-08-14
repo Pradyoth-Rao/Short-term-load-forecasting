@@ -44,7 +44,7 @@ for i in range(len(test)):
 
 n=len(test)
 accuracy = 100-((1/n)*summation*100)
-print("The Prediction accuracy is:%f" % accuracy)
+print("The Prediction accuracy is: %f" % accuracy)
 
 print('Test MSE: %.3f' % error)
 # plot
