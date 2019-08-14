@@ -19,7 +19,7 @@ style.use("ggplot")
 class SeaofBTCapp(tk.Tk):
     def __init__(self, *args, **kwargs):
         tk.Tk.__init__(self, *args, **kwargs)
-        tk.Tk.wm_title(self,"Electrical Load Forecasting")
+        tk.Tk.wm_title(self,"Electrical Load Forecasting at Source")
         container = tk.Frame(self)
         container.pack(side="top", fill="both", expand=True)
         container.grid_rowconfigure(0, weight=1)
