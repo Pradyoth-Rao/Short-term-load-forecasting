@@ -10,7 +10,7 @@ from keras.layers import Dense
 from keras.layers import LSTM
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_squared_error
-# convert an array of values into a dataset matrix
+# convert an array of values into dataset matrix
 
 
 def create_dataset(dataset, look_back=1):
